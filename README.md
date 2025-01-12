@@ -219,9 +219,23 @@ Les performances dépendent du serveur et de la configuration réseau.
 
 
 ## 10. Historique des révisions
-| Version | Date | Auteur |	Évolutions |
-|:-:|:-:|:-:|:-:|
-| 1.0 | 2025-01-10 |	Amina Benzina | Création du manuel |
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Version</th>
+<th style="text-align:center">Date</th>
+<th style="text-align:center">Auteur</th>
+<th style="text-align:center">Évolutions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1.0</td>
+<td style="text-align:center">2025-01-10</td>
+<td style="text-align:center">Amina Benzina</td>
+<td style="text-align:center">Création du manuel</td>
+</tr>
+</tbody>
 
 1. [Retour au menu principal](Menu principal)  
 2. [Section suivante : Au revoir!](Au revoir!) 
