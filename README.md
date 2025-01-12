@@ -12,10 +12,10 @@ Bienvenue dans le manuel d’utilisateur dédié à **ChatbotMD** intégré pour
 
 ## Menu principal
 
-1. [Introduction](Introduction)  
-2. [Avertissements et conventions utilisées](2-avertissements-et-conventions-utilisées)  
-3. [Présentation de ChatbotMD](3-présentation-de-chatbotmd)  
-4. [Installation et configuration](4-installation-et-configuration) 
+1. [Introduction](#1-introductionIntroduction)  
+2. [Avertissements et conventions utilisées](#2-avertissements-et-conventions-utilisées)  
+3. [Présentation de ChatbotMD](#3-présentation-de-chatbotmd)  
+4. [Installation et configuration](#4-installation-et-configuration) 
 
 
 
