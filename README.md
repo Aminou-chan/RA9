@@ -1,16 +1,7 @@
----
-title: "Manuel d’utilisateur ChatbotMD pour la plateforme Middleware"
-version: "1.0"
-date: "2025-01-12"
-author: "Équipe Documentation Middleware"
----
-
 # Manuel d’utilisateur : ChatbotMD
 
-Bienvenue dans le manuel d’utilisateur dédié à **ChatbotMD** intégré dans notre **plateforme Middleware**.  
-*(Adapté selon les recommandations : [Wikibooks – Rédaction d’un manuel d’utilisation](https://fr.wikibooks.org/wiki/La_documentation/R%C3%A9daction_technique/R%C3%A9daction_d%27un_manuel_d%27utilisation))*
+Bienvenue dans le manuel d’utilisateur dédié à **ChatbotMD** intégré pour notre **plateforme Middleware CATS ON TREES**.  
 
----
 
 ## :house: Menu principal
 
@@ -40,7 +31,7 @@ Bienvenue dans le manuel d’utilisateur dédié à **ChatbotMD** intégré dans
    - [Références](#92-references)  
 10. [Historique des révisions](#10-historique-des-revisions)
 
----
+
 
 ## 1. Introduction
 
@@ -55,7 +46,7 @@ Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (ch
 > - [Retour au menu principal](#house-menu-principal)  
 > - [Section suivante : Avertissements et conventions](#2-avertissements-et-conventions-utilisees)  
 
----
+
 
 ## 2. Avertissements et conventions utilisées
 
@@ -72,7 +63,7 @@ Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (ch
 > - [Retour au menu principal](#house-menu-principal)  
 > - [Section suivante : Présentation de ChatbotMD](#3-presentation-de-chatbotmd)
 
----
+
 
 ## 3. Présentation de ChatbotMD
 
@@ -100,7 +91,7 @@ Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (ch
 > - [Retour au menu principal](#house-menu-principal)  
 > - [Section suivante : Installation et configuration](#4-installation-et-configuration)
 
----
+
 
 ## 4. Installation et configuration
 
