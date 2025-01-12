@@ -10,7 +10,9 @@ author: "Équipe Documentation Middleware"
 Bienvenue dans le manuel d’utilisateur dédié à **ChatbotMD** intégré pour notre **plateforme Middleware CATS ON TREES**.  
 
 
-## :house: Menu principal
+
+
+### :house: Menu principal
 
 1. [Introduction](#1-introduction)  
 2. [Avertissements et conventions utilisées](#2-avertissements-et-conventions-utilisees)  
