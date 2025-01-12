@@ -40,7 +40,7 @@ Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (ch
 - La résolution de problèmes et la maintenance
 
 1. [Retour au menu principal](Menu principal)  
-2. [Section suivante : Avertissements et conventions](Avertissements et conventions utilisées)  
+2. [Section suivante : Avertissements et conventions](2. Avertissements et conventions utilisées)
 
 
 
@@ -57,7 +57,7 @@ Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (ch
 
 
 1. [Retour au menu principal](Menu principal)  
-2. [Section suivante : Présentation de ChatbotMD](Présentation de ChatbotMD)  
+2. [Section suivante : Présentation de ChatbotMD](3. Présentation de ChatbotMD)  
 
 
 ## 3. Présentation de ChatbotMD
@@ -81,7 +81,7 @@ Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (ch
 - **Accès** : Crédentials/API Key pour la plateforme COT si nécessaire (partie à developper plus tard).
 
 1. [Retour au menu principal](Menu principal)  
-2. [Section suivante : Installation et configuration](Installation et configuration)  
+2. [Section suivante : Installation et configuration](4. Installation et configuration)  
 
 ## 4. Installation et configuration
 
@@ -137,7 +137,7 @@ Scripts personnalisés : ex. `!script backupDB`.
 
 
 1. [Retour au menu principal](Menu principal)  
-2. [Section suivante : Maintenance et mises à jour](Maintenance et mises à jour)  
+2. [Section suivante : Maintenance et mises à jour](6. Maintenance et mises à jour)  
 
 
 ## 6. Maintenance et mises à jour
@@ -168,7 +168,7 @@ ansible-playbook inst_CM.yml -i inventory/test --tags="install_GUI_CM"
 5. (optionnel) Vérifier le fonctionnement dans les logs.
 
 1. [Retour au menu principal](Menu principal)  
-2. [Section suivante : Résolution des problèmes](Résolution des problèmes) 
+2. [Section suivante : Résolution des problèmes](7. Résolution des problèmes) 
 
 
 ## 7. Résolution des problèmes
@@ -187,7 +187,7 @@ ansible-playbook inst_CM.yml -i inventory/test --tags="install_GUI_CM"
 
 
 1. [Retour au menu principal](Menu principal)  
-2. [Section suivante : FAQ](FAQ) 
+2. [Section suivante : FAQ](8. FAQ) 
 
 ## 8. FAQ
 
@@ -199,7 +199,7 @@ Modifier les fichiers .css et .js dans public/.
 Les performances dépendent du serveur et de la configuration réseau.
 
 1. [Retour au menu principal](Menu principal)  
-2. [Section suivante : Annexes](Annexes) 
+2. [Section suivante : Annexes](9. Annexes) 
 
 
 ## 9. Annexes
@@ -218,7 +218,7 @@ Les performances dépendent du serveur et de la configuration réseau.
 </ul>
 
 1. [Retour au menu principal](Menu principal)  
-2. [Section suivante : Au revoir!](Au revoir!) 
+2. [Section suivante : Au revoir!](10. Au revoir!) 
 
 
 ## 10. Au revoir!
