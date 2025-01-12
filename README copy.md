@@ -15,8 +15,27 @@ Bienvenue dans le manuel d’utilisateur dédié à **ChatbotMD** intégré pour
 1. [Introduction](Introduction)  
 2. [Avertissements et conventions utilisées](avertissements-et-conventions-utilisees)  
 3. [Présentation de ChatbotMD](presentation-de-chatbotmd)  
+4. [Installation et configuration](installation-et-configuration)  
+   - [Prérequis](#41-prerequis)  
+   - [Procédure d’installation](#42-procedure-dinstallation)  
+   - [Configuration initiale](#43-configuration-initiale)  
+5. [Guide d’utilisation](#5-guide-dutilisation)  
+   - [Premier démarrage](#51-premier-demarrage)  
+   - [Interactions de base](#52-interactions-de-base)  
+   - [Fonctionnalités avancées](#53-fonctionnalites-avancees)  
+6. [Maintenance et mises à jour](#6-maintenance-et-mises-a-jour)  
+   - [Consignes de maintenance](#61-consignes-de-maintenance)  
+   - [Procédure de mise à jour](#62-procedure-de-mise-a-jour)  
+7. [Résolution des problèmes](#7-resolution-des-problemes)  
+   - [Problèmes courants](#71-problemes-courants)  
+   - [Dépannage avancé](#72-depannage-avance)  
+8. [FAQ](#8-faq)  
+9. [Annexes](#9-annexes)  
+   - [Glossaire](#91-glossaire)  
+   - [Références](#92-references)  
+10. [Historique des révisions](#10-historique-des-revisions)
 
-
+---
 
 ## Introduction
 
@@ -27,8 +46,13 @@ Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (ch
 - L’utilisation au quotidien (commandes, automatisations, etc.)  
 - La résolution de problèmes et la maintenance
 
+> **Bulles de proposition** :  
+> - [Retour au menu principal](#house-menu-principal)  
+> - [Section suivante : Avertissements et conventions](#2-avertissements-et-conventions-utilisees)  
 
-## Avertissements et conventions utilisées
+---
+
+## 2. Avertissements et conventions utilisées
 
 - **Avertissements de sécurité** : veillez à ne pas divulguer de données sensibles (identifiants, mots de passe, etc.) dans le chatbot.  
 - **Conventions d’écriture** :  
@@ -39,8 +63,13 @@ Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (ch
   - Les éléments d’interface (boutons, champs) sont en **gras** ou *italique*.
   - Les chemins de fichiers sont au format `/chemin/vers/fichier`.
 
+> **Bulles de proposition** :  
+> - [Retour au menu principal](#house-menu-principal)  
+> - [Section suivante : Présentation de ChatbotMD](#3-presentation-de-chatbotmd)
 
-## Présentation de ChatbotMD
+---
+
+## 3. Présentation de ChatbotMD
 
 ### 3.1 Objectifs
 
@@ -66,3 +95,20 @@ Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (ch
 > - [Retour au menu principal](#house-menu-principal)  
 > - [Section suivante : Installation et configuration](#4-installation-et-configuration)
 
+---
+
+## 4. Installation et configuration
+
+### 4.1 Prérequis
+
+- Droits administrateur (ou équivalents) sur la plateforme Middleware.  
+- Connexion internet (si installation en ligne).  
+- Identifiants et clés d’API pour la configuration.
+
+### 4.2 Procédure d’installation
+
+1. **Récupérer** le package ChatbotMD (via repository interne ou archive).  
+2. **Extraire/Cloner** le projet dans le répertoire adéquat :  
+   ```bash
+   cd /var/www/middleware/apps/
+   git clone [url-du-repo-chatbotmd]
