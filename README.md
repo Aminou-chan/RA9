@@ -220,8 +220,8 @@ Les performances dépendent du serveur et de la configuration réseau.
 
 ## 10. Historique des révisions
 | Version | Date | Auteur |	Évolutions |
-|---|:-:   |:-:   |:-:     |:-:        |
-|1.0	|2025-01-10|	Amina Benzina | Création du manuel |
+|:-:|:-:|:-:|:-:|
+| 1.0 | 2025-01-10 |	Amina Benzina | Création du manuel |
 
 1. [Retour au menu principal](Menu principal)  
 2. [Section suivante : Au revoir!](Au revoir!) 
