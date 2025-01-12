@@ -1,6 +1,8 @@
 ---
-title: "Manuel d’utilisateur ChatbotMD pour la plateforme Middleware"
+title: "Manuel d’utilisateur ChatbotMD pour la plateforme Middleware COT"
 version: "1.0"
+author: Amina Benzina
+date: "2025-01-10"
 ---
 
 # Manuel d’utilisateur : ChatbotMD sur les environnements de TEST
@@ -21,8 +23,7 @@ Bienvenue dans le manuel d’utilisateur dédié à **ChatbotMD** intégré pour
 7. [Résolution des problèmes](7. Résolution des problèmes)
 8. [FAQ](8. FAQ)
 9. [Annexes](9. Annexes)
-10. [Historique des révisions](10. Historique des révisions)
-11. [Au revoir!](11. Au revoir!)
+10. [Au revoir!](10. Au revoir!)
 
 
 
@@ -215,33 +216,10 @@ Les performances dépendent du serveur et de la configuration réseau.
 - Documentation interne de la plateforme COT
 
 1. [Retour au menu principal](Menu principal)  
-2. [Section suivante : Historique des révisions](Historique des révisions) 
-
-
-## 10. Historique des révisions
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Version</th>
-<th style="text-align:center">Date</th>
-<th style="text-align:center">Auteur</th>
-<th style="text-align:center">Évolutions</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">1.0</td>
-<td style="text-align:center">2025-01-10</td>
-<td style="text-align:center">Amina Benzina</td>
-<td style="text-align:center">Création du manuel</td>
-</tr>
-</tbody>
-
-1. [Retour au menu principal](Menu principal)  
 2. [Section suivante : Au revoir!](Au revoir!) 
 
 
-## 11. Au revoir!
+## 10. Au revoir!
 :star2: Merci d’avoir consulté ce manuel d’utilisation
 
 ChatbotMD est conçu pour améliorer l’expérience utilisateur et simplifier la gestion de notre plateforme Middleware.
