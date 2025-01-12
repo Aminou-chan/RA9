@@ -1,3 +1,10 @@
+---
+title: "Manuel d’utilisateur ChatbotMD pour la plateforme Middleware"
+version: "1.0"
+date: "2025-01-12"
+author: "Équipe Documentation Middleware"
+---
+
 # Manuel d’utilisateur : ChatbotMD
 
 Bienvenue dans le manuel d’utilisateur dédié à **ChatbotMD** intégré pour notre **plateforme Middleware CATS ON TREES**.  
