@@ -13,8 +13,8 @@ Bienvenue dans le manuel d’utilisateur dédié à **ChatbotMD** intégré pour
 ## Menu principal
 
 1. [Introduction](Introduction)  
-2. [Avertissements et conventions utilisées](avertissements-et-conventions-utilisees)  
-3. [Présentation de ChatbotMD](presentation-de-chatbotmd)  
+2. [Avertissements et conventions utilisées](Avertissements et conventions utilisées)  
+3. [Présentation de ChatbotMD](Présentation de ChatbotMD)  
 
 
 
