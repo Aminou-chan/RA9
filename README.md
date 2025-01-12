@@ -7,7 +7,7 @@ version: "1.0"
 
 Bienvenue dans le manuel d’utilisateur dédié à **ChatbotMD** intégré pour notre **plateforme Middleware CATS ON TREES**.  
 
-1. [:house: Menu principal](:house: Menu principal)
+1. [Menu principal](Menu principal)
 
 
 ## :house: Menu principal
