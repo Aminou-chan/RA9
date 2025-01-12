@@ -16,6 +16,15 @@ Bienvenue dans le manuel d’utilisateur dédié à **ChatbotMD** intégré pour
 2. [Avertissements et conventions utilisées](2. Avertissements et conventions utilisées)  
 3. [Présentation de ChatbotMD](3. Présentation de ChatbotMD)  
 4. [Installation et configuration](4. Installation et configuration) 
+5. [Guide d’utilisation](5. Guide d’utilisation)
+6. [Maintenance et mises à jour](6. Maintenance et mises à jour)
+7. [Résolution des problèmes](7. Résolution des problèmes)
+8. [FAQ](8. FAQ)
+9. [Annexes](9. Annexes)
+10. [Historique des révisions](10. Historique des révisions)
+11. [Au revoir!](11. Au revoir!)
+
+
 
 
 
@@ -109,116 +118,119 @@ ansible-playbook inst_CM.yml -i inventory/test --tags="install_GUI_CM"
 ## 5. Guide d’utilisation
 ### 5.1 Premier démarrage
 
-    Accédez à l’URL (ex. https://votreserveur/chatbotmd)(entreprise)
-    
-    Connectez-vous à l’aide de vos identifiants (si la plateforme le requiert/plus tard).
+Accédez à l’URL (***) (entreprise)
+`https://chatmd.forge.apps.education.fr/#https://github.com/Aminou-chan/RA9/blob/main/README.md`(ecole_RA9)
 
-5.2 Interactions de base
+Connectez-vous à l’aide de vos identifiants (si la plateforme le requiert/plus tard).
 
-    Saisir votre question ou commande dans le champ de texte.
-    Envoyer la demande (bouton Envoyer ou touche Entrée).
-    Lire la réponse produite par ChatbotMD.
+### 5.2 Interactions de base
 
-5.3 Fonctionnalités avancées
+1. Saisir votre question ou commande dans le champ de texte.
+2. Envoyer la demande (bouton *Envoyer* ou touche *Entrée*).
+3. Lire la réponse produite par ChatbotMD.
 
-    Commandes spécifiques : exemple !restart moduleX pour redémarrer un module.
-    Scripts personnalisés : ex. !script backupDB.
-    Historique : possibilité de revoir et/ou exporter les conversations.
+### 5.3 Fonctionnalités avancées
 
-    Bulles de proposition :
+Commandes spécifiques : exemple `!restart moduleX` pour redémarrer un module.
+Scripts personnalisés : ex. `!script backupDB`.
 
-        Retour au menu principal
-        Section suivante : Maintenance et mises à jour
 
-6. Maintenance et mises à jour
-6.1 Consignes de maintenance
+1. [Retour au menu principal](Menu principal)  
+2. [Section suivante : Maintenance et mises à jour](Maintenance et mises à jour)  
 
-    Surveiller les logs (logs/chatbotmd.log) pour détecter des erreurs.
-    Sauvegarder régulièrement la configuration (fichiers .env, config.yaml).
 
-6.2 Procédure de mise à jour
+## 6. Maintenance et mises à jour
+### 6.1 Consignes de maintenance
 
-    Arrêter ChatbotMD :
+Vous pouvez surveiller les logs (`logs/chatbotmd.log`) pour détecter des erreurs.
+Il faudra sauvegarder régulièrement la configuration (`config.yaml`).
 
-systemctl stop chatbotmd
+### 6.2 Procédure de mise à jour
 
-Mettre à jour via git pull ou un paquet interne.
-Réinstaller les dépendances si besoin :
+1. Mettre à jour le Repo chatMD sur COT (Repo Mirror du repository original)
+2. Mettre à jour la bonne version dans `~/playbook-init/inventory/test/groups_vars/vm_cm`
+et `~/playbook-init/inventory/test/groups_vars/oak_cm`
 
-npm install
+variable: `src_gui_ext`
 
-Redémarrer :
+3. reinstaller le GUI CM
 
-    systemctl start chatbotmd
+```sh
+cd ~/cot_ansible/playbook-init
 
-    Vérifier le fonctionnement dans les logs.
+ansible-playbook inst_CM.yml -i inventory/test --tags="install_GUI_CM"
+```
 
-    Bulles de proposition :
+4. Tester le lien (***) pour verifier le bon fonctionnement
 
-        Retour au menu principal
-        Section suivante : Résolution des problèmes
 
-7. Résolution des problèmes
-7.1 Problèmes courants
+5. (optionnel) Vérifier le fonctionnement dans les logs.
 
-    Le chatbot ne se lance pas : vérifier la config et les ports (logs).
-    Réponses incohérentes : vérifier l’API ou la base de connaissances.
-    Temps de réponse élevé : regarder la charge serveur et la connectivité.
+1. [Retour au menu principal](Menu principal)  
+2. [Section suivante : Résolution des problèmes](Résolution des problèmes) 
 
-7.2 Dépannage avancé
 
-    Logs détaillés : passer LOG_LEVEL à debug dans le fichier de config.
-    Réinitialisation : supprimer le cache/dossier sessions puis redémarrer.
-    Support : contacter l’équipe Middleware si rien ne fonctionne.
+## 7. Résolution des problèmes
+### 7.1 Problèmes courants
 
-    Bulles de proposition :
+- **Réponses incohérentes :** 
+    - relancer votre navigateur/vider le cache de votre navigateur
+    - vérifier l’API ou la base de connaissances.
 
-        Retour au menu principal
-        Section suivante : FAQ
+- **Temps de réponse élevé :** regarder la charge serveur et la connectivité.
 
-8. FAQ
+### 7.2 Dépannage avancé
 
-    ChatbotMD gère-t-il plusieurs langues ?
-    Oui, si les modules linguistiques sont installés et configurés.
-    Comment personnaliser l’interface ?
-    Modifier les fichiers .css et .js dans public/.
-    Existe-t-il des limites ?
-    Les performances dépendent du serveur et de la configuration réseau.
+- **Le chatbot ne se lance pas :** vérifier la config et les ports (logs).
+- **Support :** contacter l’équipe de COT et au pire l'equipe de chatbotMD si rien ne fonctionne.
 
-    Bulles de proposition :
 
-        Retour au menu principal
-        Section suivante : Annexes
+1. [Retour au menu principal](Menu principal)  
+2. [Section suivante : FAQ](FAQ) 
 
-9. Annexes
-9.1 Glossaire
+## 8. FAQ
 
-    API : Interface de programmation, permet à plusieurs apps de communiquer.
-    Middleware : Logiciel d’interfaçage entre différents systèmes ou services.
-    Chatbot : Agent conversationnel automatisé.
+**ChatbotMD gère-t-il plusieurs langues ?**
+Oui, si les modules linguistiques sont installés et configurés.
+**Comment personnaliser l’interface ?**
+Modifier les fichiers .css et .js dans public/.
+**Existe-t-il des limites ?**
+Les performances dépendent du serveur et de la configuration réseau.
 
-9.2 Références
+1. [Retour au menu principal](Menu principal)  
+2. [Section suivante : Annexes](Annexes) 
 
-    Wikibooks – Rédaction d’un manuel d’utilisation
-    Documentation interne de la plateforme Middleware
 
-    Bulles de proposition :
+## 9. Annexes
+### 9.1 Glossaire
 
-        Retour au menu principal
-        Section suivante : Historique des révisions
+- **API :** Interface de programmation, permet à plusieurs apps de communiquer.
+- **Middleware :** Logiciel d’interfaçage entre différents systèmes ou services.
+- **Chatbot :** Agent conversationnel automatisé.
+- **COT**: Cats On Trees, plateforme middleware de AG2R La Mondiale pour hébérger des applications tomcat
 
-10. Historique des révisions
-Version	Date	Auteur	Évolutions
-1.0	2025-01-12	Équipe Doc. Middleware	Création du manuel
-1.1	À compléter	(Votre nom)	Mises à jour mineures
+### 9.2 Références
 
-    Bulles de proposition :
+- [Wikibooks – Rédaction d’un manuel d’utilisation](https://fr.wikibooks.org/wiki/La_documentation/R%C3%A9daction_technique/R%C3%A9daction_d'un_manuel_d'utilisation)
+- Documentation interne de la plateforme COT
 
-        Retour au menu principal
+1. [Retour au menu principal](Menu principal)  
+2. [Section suivante : Historique des révisions](Historique des révisions) 
 
+
+## 10. Historique des révisions
+| Version | Date | Auteur |	Évolutions |
+|---|:-:   |:-:   |:-:     |:-:        |
+|1.0	|2025-01-10|	Amina Benzina | Création du manuel |
+
+1. [Retour au menu principal](Menu principal)  
+2. [Section suivante : Au revoir!](Au revoir!) 
+
+
+## 11. Au revoir!
 :star2: Merci d’avoir consulté ce manuel d’utilisation
 
-ChatbotMD est conçu pour améliorer l’expérience utilisateur et simplifier la gestion de votre plateforme Middleware.
+ChatbotMD est conçu pour améliorer l’expérience utilisateur et simplifier la gestion de notre plateforme Middleware.
 Pour tout complément d’information ou problème spécifique, consultez la section de résolution des problèmes ou contactez le support interne.
 
 
