@@ -20,12 +20,16 @@ Bienvenue dans le manuel d’utilisateur dédié à **ChatbotMD** intégré pour
 
 ## Introduction
 
-Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (chatbot) conçu pour s’intégrer à la **plateforme Middleware** de l’entreprise. Il vous guidera pas à pas dans :
+Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (chatbot) conçu pour s’intégrer à la **plateforme COT** . Il vous guidera pas à pas dans :
 
 - La compréhension du fonctionnement de ChatbotMD  
 - L’installation et la configuration  
 - L’utilisation au quotidien (commandes, automatisations, etc.)  
 - La résolution de problèmes et la maintenance
+
+1. [Retour au menu principal](Menu principal)  
+2. [Section suivante : Avertissements et conventions](Avertissements et conventions utilisées)  
+
 
 
 ## Avertissements et conventions utilisées
@@ -38,6 +42,10 @@ Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (ch
     ```
   - Les éléments d’interface (boutons, champs) sont en **gras** ou *italique*.
   - Les chemins de fichiers sont au format `/chemin/vers/fichier`.
+
+
+1. [Retour au menu principal](Menu principal)  
+2. [Section suivante : Présentation de ChatbotMD](Présentation de ChatbotMD)  
 
 
 ## Présentation de ChatbotMD
@@ -62,7 +70,6 @@ Ce manuel décrit l’utilisation de **ChatbotMD**, un agent conversationnel (ch
 - **Réseau** : Ports ouverts (HTTPS 443, etc.).  
 - **Accès** : Crédentials/API Key pour la plateforme Middleware si nécessaire.
 
-> **Bulles de proposition** :  
-> - [Retour au menu principal](#house-menu-principal)  
-> - [Section suivante : Installation et configuration](#4-installation-et-configuration)
+1. [Retour au menu principal](Menu principal)  
+2. [Section suivante : Présentation de ChatbotMD](Présentation de ChatbotMD)  
 
