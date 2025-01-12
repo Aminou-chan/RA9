@@ -212,8 +212,10 @@ Les performances dépendent du serveur et de la configuration réseau.
 
 ### 9.2 Références
 
-- [Wikibooks – Rédaction d’un manuel d’utilisation](https://fr.wikibooks.org/wiki/La_documentation/R%C3%A9daction_technique/R%C3%A9daction_d'un_manuel_d'utilisation)
-- Documentation interne de la plateforme COT
+<ul>
+<li><a href="https://fr.wikibooks.org/wiki/La_documentation/R%C3%A9daction_technique/R%C3%A9daction_d&#39;un_manuel_d&#39;utilisation">Wikibooks – Rédaction d’un manuel d’utilisation</a></li>
+<li>Documentation interne de la plateforme COT</li>
+</ul>
 
 1. [Retour au menu principal](Menu principal)  
 2. [Section suivante : Au revoir!](Au revoir!) 
